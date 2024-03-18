@@ -71,7 +71,7 @@ def create_excel_A6(entries):
 
         # Вставляем текст из ячейки A1
         worksheet.write('A1', text_A2, cell_format_text)
-        worksheet.write('A2', "          " + text_A1, cell_format_A2)
+        worksheet.write('A2', text_A1, cell_format_A2)
 
         # Переводим размеры QR-кода в пиксели (примерно 1 см = 37.795276 пикселя)
         qr_width_pixels = int(8 * 37.795276)
